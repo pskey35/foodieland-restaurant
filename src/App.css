@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,body,#root{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.psk-customBG{
+  background:#e7fafe !important;
+  border-right:5px solid white;
+  border-radius:2px;
+}
+
+@media (max-width:768px){
+  .psk-customBG{
+    border-right:0;
+
+    border-radius:0;
+    
+  }
+}
